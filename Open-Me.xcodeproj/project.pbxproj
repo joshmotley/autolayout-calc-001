@@ -7,6 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		262C1AF51BA3DCED003F938A /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26D236DF1BA3D86700A53077 /* CoreText.framework */; };
+		262C1AF71BA3DCF3003F938A /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 262C1AF61BA3DCF3003F938A /* CoreData.framework */; };
+		262C1AF81BA3DD01003F938A /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 262C1AF61BA3DCF3003F938A /* CoreData.framework */; };
+		262C1AFA1BA3DDA2003F938A /* FontAwesomeKit in Resources */ = {isa = PBXBuildFile; fileRef = 262C1AF91BA3DDA2003F938A /* FontAwesomeKit */; };
+		262C1B0A1BA3DDC4003F938A /* FAKFontAwesome.m in Sources */ = {isa = PBXBuildFile; fileRef = 262C1AFC1BA3DDC4003F938A /* FAKFontAwesome.m */; };
+		262C1B0B1BA3DDC4003F938A /* FAKFoundationIcons.m in Sources */ = {isa = PBXBuildFile; fileRef = 262C1AFE1BA3DDC4003F938A /* FAKFoundationIcons.m */; };
+		262C1B0C1BA3DDC4003F938A /* FAKIcon.m in Sources */ = {isa = PBXBuildFile; fileRef = 262C1B001BA3DDC4003F938A /* FAKIcon.m */; };
+		262C1B0D1BA3DDC4003F938A /* FAKIonIcons.m in Sources */ = {isa = PBXBuildFile; fileRef = 262C1B021BA3DDC4003F938A /* FAKIonIcons.m */; };
+		262C1B0E1BA3DDC4003F938A /* FAKZocial.m in Sources */ = {isa = PBXBuildFile; fileRef = 262C1B041BA3DDC4003F938A /* FAKZocial.m */; };
+		262C1B0F1BA3DDC4003F938A /* FontAwesome.otf in Resources */ = {isa = PBXBuildFile; fileRef = 262C1B051BA3DDC4003F938A /* FontAwesome.otf */; };
+		262C1B101BA3DDC4003F938A /* foundation-icons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 262C1B071BA3DDC4003F938A /* foundation-icons.ttf */; };
+		262C1B111BA3DDC4003F938A /* ionicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 262C1B081BA3DDC4003F938A /* ionicons.ttf */; };
+		262C1B121BA3DDC4003F938A /* zocial-regular-webfont.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 262C1B091BA3DDC4003F938A /* zocial-regular-webfont.ttf */; };
+		26D236E01BA3D86700A53077 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26D236DF1BA3D86700A53077 /* CoreText.framework */; };
+		26D236E21BA3D8BC00A53077 /* FontAwesomeKit in Resources */ = {isa = PBXBuildFile; fileRef = 26D236E11BA3D8BC00A53077 /* FontAwesomeKit */; };
 		44CD1BF81921519700140BD0 /* FISViewControllerSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 44CD1BF71921519700140BD0 /* FISViewControllerSpec.m */; };
 		96A82334280A4C2CBB7EDCF6 /* libPods-Open-MeTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D3BDE501DA541E8A349FFEB /* libPods-Open-MeTests.a */; };
 		D8663B4618C6528F00B37118 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8663B4518C6528F00B37118 /* Foundation.framework */; };
@@ -35,6 +50,25 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		262C1AF61BA3DCF3003F938A /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		262C1AF91BA3DDA2003F938A /* FontAwesomeKit */ = {isa = PBXFileReference; lastKnownFileType = folder; name = FontAwesomeKit; path = ../FontAwesomeKit/FontAwesomeKit; sourceTree = "<group>"; };
+		262C1AFB1BA3DDC4003F938A /* FAKFontAwesome.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FAKFontAwesome.h; path = ../FontAwesomeKit/FontAwesomeKit/FAKFontAwesome.h; sourceTree = "<group>"; };
+		262C1AFC1BA3DDC4003F938A /* FAKFontAwesome.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FAKFontAwesome.m; path = ../FontAwesomeKit/FontAwesomeKit/FAKFontAwesome.m; sourceTree = "<group>"; };
+		262C1AFD1BA3DDC4003F938A /* FAKFoundationIcons.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FAKFoundationIcons.h; path = ../FontAwesomeKit/FontAwesomeKit/FAKFoundationIcons.h; sourceTree = "<group>"; };
+		262C1AFE1BA3DDC4003F938A /* FAKFoundationIcons.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FAKFoundationIcons.m; path = ../FontAwesomeKit/FontAwesomeKit/FAKFoundationIcons.m; sourceTree = "<group>"; };
+		262C1AFF1BA3DDC4003F938A /* FAKIcon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FAKIcon.h; path = ../FontAwesomeKit/FontAwesomeKit/FAKIcon.h; sourceTree = "<group>"; };
+		262C1B001BA3DDC4003F938A /* FAKIcon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FAKIcon.m; path = ../FontAwesomeKit/FontAwesomeKit/FAKIcon.m; sourceTree = "<group>"; };
+		262C1B011BA3DDC4003F938A /* FAKIonIcons.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FAKIonIcons.h; path = ../FontAwesomeKit/FontAwesomeKit/FAKIonIcons.h; sourceTree = "<group>"; };
+		262C1B021BA3DDC4003F938A /* FAKIonIcons.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FAKIonIcons.m; path = ../FontAwesomeKit/FontAwesomeKit/FAKIonIcons.m; sourceTree = "<group>"; };
+		262C1B031BA3DDC4003F938A /* FAKZocial.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FAKZocial.h; path = ../FontAwesomeKit/FontAwesomeKit/FAKZocial.h; sourceTree = "<group>"; };
+		262C1B041BA3DDC4003F938A /* FAKZocial.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FAKZocial.m; path = ../FontAwesomeKit/FontAwesomeKit/FAKZocial.m; sourceTree = "<group>"; };
+		262C1B051BA3DDC4003F938A /* FontAwesome.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = FontAwesome.otf; path = ../FontAwesomeKit/FontAwesomeKit/FontAwesome.otf; sourceTree = "<group>"; };
+		262C1B061BA3DDC4003F938A /* FontAwesomeKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FontAwesomeKit.h; path = ../FontAwesomeKit/FontAwesomeKit/FontAwesomeKit.h; sourceTree = "<group>"; };
+		262C1B071BA3DDC4003F938A /* foundation-icons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "foundation-icons.ttf"; path = "../FontAwesomeKit/FontAwesomeKit/foundation-icons.ttf"; sourceTree = "<group>"; };
+		262C1B081BA3DDC4003F938A /* ionicons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = ionicons.ttf; path = ../FontAwesomeKit/FontAwesomeKit/ionicons.ttf; sourceTree = "<group>"; };
+		262C1B091BA3DDC4003F938A /* zocial-regular-webfont.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "zocial-regular-webfont.ttf"; path = "../FontAwesomeKit/FontAwesomeKit/zocial-regular-webfont.ttf"; sourceTree = "<group>"; };
+		26D236DF1BA3D86700A53077 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
+		26D236E11BA3D8BC00A53077 /* FontAwesomeKit */ = {isa = PBXFileReference; lastKnownFileType = folder; path = FontAwesomeKit; sourceTree = SOURCE_ROOT; };
 		44CD1BF71921519700140BD0 /* FISViewControllerSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FISViewControllerSpec.m; sourceTree = "<group>"; };
 		4D3BDE501DA541E8A349FFEB /* libPods-Open-MeTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Open-MeTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		747C0F8327C5DC8CA3A68502 /* Pods-Open-MeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Open-MeTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Open-MeTests/Pods-Open-MeTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -64,6 +98,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				262C1AF81BA3DD01003F938A /* CoreData.framework in Frameworks */,
+				26D236E01BA3D86700A53077 /* CoreText.framework in Frameworks */,
 				D8663B4818C6528F00B37118 /* CoreGraphics.framework in Frameworks */,
 				D8663B4A18C6528F00B37118 /* UIKit.framework in Frameworks */,
 				D8663B4618C6528F00B37118 /* Foundation.framework in Frameworks */,
@@ -74,6 +110,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				262C1AF71BA3DCF3003F938A /* CoreData.framework in Frameworks */,
+				262C1AF51BA3DCED003F938A /* CoreText.framework in Frameworks */,
 				D8663B6518C6528F00B37118 /* XCTest.framework in Frameworks */,
 				D8663B6718C6528F00B37118 /* UIKit.framework in Frameworks */,
 				D8663B6618C6528F00B37118 /* Foundation.framework in Frameworks */,
@@ -116,6 +154,8 @@
 		D8663B4418C6528F00B37118 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				262C1AF61BA3DCF3003F938A /* CoreData.framework */,
+				26D236DF1BA3D86700A53077 /* CoreText.framework */,
 				D8663B4518C6528F00B37118 /* Foundation.framework */,
 				D8663B4718C6528F00B37118 /* CoreGraphics.framework */,
 				D8663B4918C6528F00B37118 /* UIKit.framework */,
@@ -133,6 +173,23 @@
 				D8663B5718C6528F00B37118 /* Main.storyboard */,
 				D8663B5A18C6528F00B37118 /* FISViewController.h */,
 				D8663B5B18C6528F00B37118 /* FISViewController.m */,
+				26D236E11BA3D8BC00A53077 /* FontAwesomeKit */,
+				262C1AF91BA3DDA2003F938A /* FontAwesomeKit */,
+				262C1AFB1BA3DDC4003F938A /* FAKFontAwesome.h */,
+				262C1AFC1BA3DDC4003F938A /* FAKFontAwesome.m */,
+				262C1AFD1BA3DDC4003F938A /* FAKFoundationIcons.h */,
+				262C1AFE1BA3DDC4003F938A /* FAKFoundationIcons.m */,
+				262C1AFF1BA3DDC4003F938A /* FAKIcon.h */,
+				262C1B001BA3DDC4003F938A /* FAKIcon.m */,
+				262C1B011BA3DDC4003F938A /* FAKIonIcons.h */,
+				262C1B021BA3DDC4003F938A /* FAKIonIcons.m */,
+				262C1B031BA3DDC4003F938A /* FAKZocial.h */,
+				262C1B041BA3DDC4003F938A /* FAKZocial.m */,
+				262C1B051BA3DDC4003F938A /* FontAwesome.otf */,
+				262C1B061BA3DDC4003F938A /* FontAwesomeKit.h */,
+				262C1B071BA3DDC4003F938A /* foundation-icons.ttf */,
+				262C1B081BA3DDC4003F938A /* ionicons.ttf */,
+				262C1B091BA3DDC4003F938A /* zocial-regular-webfont.ttf */,
 				D8663B5D18C6528F00B37118 /* Images.xcassets */,
 				D8663B4C18C6528F00B37118 /* Supporting Files */,
 			);
@@ -249,7 +306,13 @@
 			files = (
 				D8663B5E18C6528F00B37118 /* Images.xcassets in Resources */,
 				D8663B5018C6528F00B37118 /* InfoPlist.strings in Resources */,
+				262C1B111BA3DDC4003F938A /* ionicons.ttf in Resources */,
+				262C1B101BA3DDC4003F938A /* foundation-icons.ttf in Resources */,
+				262C1B0F1BA3DDC4003F938A /* FontAwesome.otf in Resources */,
+				26D236E21BA3D8BC00A53077 /* FontAwesomeKit in Resources */,
 				D8663B5918C6528F00B37118 /* Main.storyboard in Resources */,
+				262C1B121BA3DDC4003F938A /* zocial-regular-webfont.ttf in Resources */,
+				262C1AFA1BA3DDA2003F938A /* FontAwesomeKit in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -301,9 +364,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				262C1B0B1BA3DDC4003F938A /* FAKFoundationIcons.m in Sources */,
 				D8663B5C18C6528F00B37118 /* FISViewController.m in Sources */,
+				262C1B0E1BA3DDC4003F938A /* FAKZocial.m in Sources */,
+				262C1B0A1BA3DDC4003F938A /* FAKFontAwesome.m in Sources */,
 				D8663B5218C6528F00B37118 /* main.m in Sources */,
 				D8663B5618C6528F00B37118 /* FISAppDelegate.m in Sources */,
+				262C1B0C1BA3DDC4003F938A /* FAKIcon.m in Sources */,
+				262C1B0D1BA3DDC4003F938A /* FAKIonIcons.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -456,7 +524,7 @@
 			baseConfigurationReference = 747C0F8327C5DC8CA3A68502 /* Pods-Open-MeTests.debug.xcconfig */;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Open-Me.app/Open-Me";
+				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -470,7 +538,7 @@
 				);
 				INFOPLIST_FILE = "Open-MeTests/Open-MeTests-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Open-Me.app/Open-Me";
 				WRAPPER_EXTENSION = xctest;
 			};
 			name = Debug;
@@ -480,7 +548,7 @@
 			baseConfigurationReference = D3E344FE3AB14CA9E7840956 /* Pods-Open-MeTests.release.xcconfig */;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Open-Me.app/Open-Me";
+				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -490,7 +558,7 @@
 				GCC_PREFIX_HEADER = "Open-Me/Open-Me-Prefix.pch";
 				INFOPLIST_FILE = "Open-MeTests/Open-MeTests-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Open-Me.app/Open-Me";
 				WRAPPER_EXTENSION = xctest;
 			};
 			name = Release;

@@ -7,6 +7,14 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <CoreText/CoreText.h>
+#import <CoreData/CoreData.h>
+#import "FAKFontAwesome.h"
+#import "FAKFoundationIcons.h"
+#import "FAKZocial.h"
+#import "FAKIonIcons.h"
+
+
 
 @interface FISViewController : UIViewController
 
